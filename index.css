@@ -1,0 +1,79 @@
+body{
+    background: beige;
+    font-family: "Arial Black", sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.circle{
+    background-color: #010101;
+    background-image: radial-gradient(circle closest-corner at 25% 25% ,#4b4b4b 5%, #010101 95%);
+    border-radius: 50%;
+    box-shadow: 8px 8px 50px #1E1E1E;
+    display: inherit;
+    height: 100%;
+    margin: auto;
+    width: 100%;
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+}
+
+#display{
+    align-items: center;
+    background: #080820;
+    border: 5px solid #3d3d3d;
+    border-radius: 50%;
+    color: #DDDDFF;
+    display: none;
+    height: 40%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+}
+
+.inner{
+    background: ivory;
+    border-radius: 50%;
+    display: inherit;
+    height: 40%;
+    margin: auto;
+    width: 40%
+}
+
+#message{
+    font-size: 12px;
+    margin-top: -200px;
+}
+
+.triangle{
+    align-items: center;
+    border-left:70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 150px solid #282892;
+    display: inherit;
+    height: 0;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    width: 0;
+}
+
+.number{
+    align-items: center;
+    display: inherit;
+    font-size: 128px;
+    margin: auto;
+}
